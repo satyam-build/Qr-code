@@ -17,6 +17,7 @@ app.use(express.static("public"));
 
 app.get("/", (req, res, next) => {
   res.render("index");
+  
 });
 
 app.post("/scan", (req, res, next) => {

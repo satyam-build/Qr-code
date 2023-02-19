@@ -17,12 +17,13 @@
         <h1>QR Code Generator</h1>
         <hr>
         <form action="/scan" method="POST" class="form">
-            <textarea name="text" id="text" cols="150" rows="10" placeholder="Enter URL or Text" required></textarea>
-            <button type="submit" class="btn btn-primary">Generate QR Code</button>
+            <textarea name="text" id="text" cols="150" rows="4" placeholder="Enter URL or Text" required></textarea>
+            <button onclick="displayScan()" type="submit" class="btn btn-primary btn-success">Generate QR Code</button>
 
         </form>
 
     </div>
+    
 </body>
 
 </html>

@@ -1,3 +1,19 @@
 body {
-  background-color: cadetblue;
+  /* background-color: cadetblue; */
+  background-color: rgb(47,50,58);
+}
+.container{
+  margin-bottom: 50px;
+}
+h1{
+  color: rgb(197,200,204);
+}
+textarea{
+  padding: 10px;
+  border-radius: 8px;
+  border: 0;
+  margin-bottom: 10px;
+}
+.btn{
+  padding: 8px;
 }
