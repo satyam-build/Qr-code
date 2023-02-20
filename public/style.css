@@ -41,7 +41,7 @@ justify-self: right;
 .container{
   
   margin-top: 10vh;
-  padding-bottom: 50px;
+  padding:50px 50px 50px 100px;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -51,6 +51,7 @@ box-shadow: 0 0  14px 14px rgb(239, 239, 239);
 
 }
 .form{
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -80,10 +81,12 @@ textarea{
   border: 0;
   margin-bottom: 10px;
   border-bottom: 4px solid black;
+  
   /* box-shadow: 0 0 14px 14px rgb(239, 235, 235); */
 }
+
 .btn{
-  margin-top: 30px;
+  margin-top: 50px;
   color: #fff;
   padding: 25px 35px ;
   font-size: 20px;
