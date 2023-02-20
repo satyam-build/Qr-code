@@ -59,18 +59,19 @@ img{
     max-width: 350px;
 }
 .btn{
-    margin-top: 20px;
+  margin-top: 30px;
   color: #fff;
-  padding: 15px 40px ;
-  font-size: 18px;
-  background-color:black ;
-  border-radius: 25px;
+  padding: 25px 35px ;
+  width: 200px;
+  font-size: 20px;
+  background-color:rgb(236,22,0) ;
+  border-radius: 6px;
   border: 0;
   transition: 0.2s ;
 }
 .btn:hover{
   border-radius: 5px;
-  background-color: rgb(36, 38, 43);
+  background-color: black;
   color: #fff;
 }
 .message{
@@ -117,7 +118,10 @@ img{
 
         <img src=<%=qr_code %> alt="QR Code">
         <br>
-        <a href="/" role="button" class="btn btn-primary">Back</a>
+        <div>
+          <a href="/" role="button" class="btn btn-primary">Back</a>
+          <a href=<%=qr_code %> class="btn btn-primary" download="Qr-code">Download</a>
+        </div>
     </div>
 </body>
 
