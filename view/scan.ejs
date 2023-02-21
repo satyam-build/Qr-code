@@ -43,6 +43,9 @@ justify-self: right;
 .container{
   margin-bottom: 50px;
 }
+h2{
+  text-align: center;
+}
 a{
   text-decoration: none;
   font-size: 16px;
@@ -54,15 +57,22 @@ color: #fff;
 text-decoration: none;
 }
 img{
-    width: 350px;
-    height: 350px;
+    width: 70vw;
+    /* width: 350px; */
+    /* height: 350px; */
     max-width: 350px;
 }
+.button{
+ 
+  text-align:center;
+}
 .btn{
-  margin-top: 30px;
+  margin: 20px auto;
+  display: inline-block;
   color: #fff;
-  padding: 25px 35px ;
-  width: 200px;
+  padding: 18px 25px ;
+  /* width: 200px; */
+  width: 18rem;
   font-size: 20px;
   background-color:rgb(236,22,0) ;
   border-radius: 6px;
@@ -75,8 +85,8 @@ img{
   color: #fff;
 }
 .message{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 40px;
     width: 100%;
     max-width: 100vw;
     /* margin-left: 20vw; */
@@ -92,6 +102,11 @@ img{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+@media only screen and (max-width:"800px"){
+  .container{
+    background-color: aqua;
+  }
 }
 
     </style>
@@ -118,7 +133,7 @@ img{
 
         <img src=<%=qr_code %> alt="QR Code">
         <br>
-        <div>
+        <div class="button">
           <a href="/" role="button" class="btn btn-primary">Back</a>
           <a href=<%=qr_code %> class="btn btn-primary" download="Qr-code">Download</a>
         </div>
